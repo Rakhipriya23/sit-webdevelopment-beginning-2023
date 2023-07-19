@@ -1,0 +1,90 @@
+*{
+    font-family:'poppins',sans-serif;
+
+}
+body{
+    /* background-color: rgba(0, 0, 0, 0.342); */
+    background-image: url(https://miro.medium.com/v2/resize:fit:1400/1*tuOJpvmCF1Par3wrCUnJ_Q.png);
+}
+h1{
+    color: rgba(14, 14, 107, 0.841);
+    font-size:40px;
+}
+img{
+    height: 60px;
+    width: 60px;
+}
+.container{
+    text-align: center;
+    padding: 70px;
+    background-color: #ffffff;
+    /* margin-top: 5px; */
+     margin-left: 30%;
+    width: 360px;
+    border-radius: 20px;
+}
+input{
+    padding: 8px;
+    border: 5px solid rgba(224, 181, 7, 0.469);
+    outline: none;
+    width: 260px;
+}
+#btn{
+    background-color: burlywood;
+    color: black;
+    height: 39px;
+    width: 65px;
+    border-radius: 5px;
+    font-size:14px;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: rgba(92, 12, 12, 0.695);
+}
+#list-container{
+     font-size: 20px; 
+     padding: 15px ;
+    list-style: none;
+    position: relative;
+    text-align: left;
+    color: rgba(7, 7, 23, 0.943);
+    background-color:#ffffff;
+    margin-top: 50px;
+    width: 90%;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+    border-radius:10px;
+    margin-bottom: 10px; 
+    text-decoration: none;
+ }  
+
+
+#del{
+    position: absolute;
+    right: 10px;
+    /* padding: 6px; */
+    background-color: burlywood;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#del:hover{
+    background-color: rgba(86, 20, 20, 0.657);
+}
+ul li{
+    margin: 7px;
+    
+}
+/* ul li:checked{
+    color: #555;
+    text-decoration: line-through;
+} */
+#don{
+    position: absolute;
+    right: 80px;
+    /* padding: 6px; */
+    background-color: burlywood;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#don:hover{
+    background-color: rgba(86, 20, 20, 0.657);
+}
